@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[This method verifyUserName execution is started]]>
+    </line>
+    <line>
+      <![CDATA[Tc verifyUserName is running successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-02T12:01:48 IST" name="Suite" finished-at="2023-07-02T12:02:03 IST" duration-ms="15449">
+    <groups>
+    </groups>
+    <test started-at="2023-07-02T12:01:48 IST" name="Test" finished-at="2023-07-02T12:02:03 IST" duration-ms="15449">
+      <class name="test.ValidateUserName1">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.ValidateUserName1@248e319b]" started-at="2023-07-02T12:01:48 IST" name="openBrowser" finished-at="2023-07-02T12:01:58 IST" duration-ms="9625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="enterDetailse()[pri:0, instance:test.ValidateUserName1@248e319b]" started-at="2023-07-02T12:01:58 IST" name="enterDetailse" finished-at="2023-07-02T12:02:03 IST" duration-ms="5735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetailse -->
+        <test-method signature="verifyUserName()[pri:0, instance:test.ValidateUserName1@248e319b]" started-at="2023-07-02T12:02:03 IST" name="verifyUserName" finished-at="2023-07-02T12:02:03 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This method verifyUserName execution is started]]>
+            </line>
+            <line>
+              <![CDATA[Tc verifyUserName is running successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserName -->
+      </class> <!-- test.ValidateUserName1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
